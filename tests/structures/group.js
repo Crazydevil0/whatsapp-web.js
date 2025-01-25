@@ -193,7 +193,6 @@ describe('Group', function() {
 
     describe('Leave / re-join', function () {
         let code;
-        
         before(async function () {
             code = await group.getInviteCode();
         });
